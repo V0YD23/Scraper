@@ -17,6 +17,6 @@ func main() {
 	// Serve the API endpoint for scraping data
 	http.HandleFunc("/scrape-data", api.ApiHandler)
 
-	fmt.Println("Server started at http://localhost:8080")
-	http.ListenAndServe(":8080", nil)
+	fmt.Println("Server started at http://localhost:3000")
+	http.ListenAndServe(":3000", nil)
 }
